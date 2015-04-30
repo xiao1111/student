@@ -1,0 +1,11 @@
+*{margin:0;padding:0;}
+.hover{width:120px;background:#85AA7B;color:white;}
+
+.sidelist{position:relative;z-index:1;width:120px;float:left;text-align:center;}
+.sidelist span h3{display:inline-block;position:relative;z-index:2;height:30px;line-height:32px;font-size:14px;}
+.sidelist span h3 a{font-size:14px;text-decoration:none;display:block;width:auto;height:auto;color:white;}
+.sidelist1{width:1100px;color:white;float:left;text-align:center;font-size:14px;line-height:30px;}
+.sidelist2{width:1370px;height:3px;margin-top:31px;}
+
+
+

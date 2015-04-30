@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>newStudent</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>YZ1</display-name>
+    <servlet-name>YZ1</servlet-name>
+    <servlet-class>util.test.service.YZ1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>YZ1</servlet-name>
+    <url-pattern>/YZ1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>YZ2</display-name>
+    <servlet-name>YZ2</servlet-name>
+    <servlet-class>util.test.service.YZ2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>YZ2</servlet-name>
+    <url-pattern>/YZ2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>YZ3</display-name>
+    <servlet-name>YZ3</servlet-name>
+    <servlet-class>util.test.service.YZ3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>YZ3</servlet-name>
+    <url-pattern>/YZ3</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>YZ4</display-name>
+    <servlet-name>YZ4</servlet-name>
+    <servlet-class>util.test.service.YZ4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>YZ4</servlet-name>
+    <url-pattern>/YZ4</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <description></description>
+    <display-name>YZ5</display-name>
+    <servlet-name>YZ5</servlet-name>
+    <servlet-class>util.test.service.YZ5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>YZ5</servlet-name>
+    <url-pattern>/YZ5</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>FBXW</display-name>
+    <servlet-name>FBXW</servlet-name>
+    <servlet-class>util.test.service.FBXW</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FBXW</servlet-name>
+    <url-pattern>/FBXW</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>xm2</display-name>
+    <servlet-name>xm2</servlet-name>
+    <servlet-class>util.test.service.xm2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>xm2</servlet-name>
+    <url-pattern>/xm2</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
